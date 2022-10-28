@@ -23,4 +23,8 @@ public class SearchPage {
     public void setSearchField(String searchField) {
         this.searchField.sendKeys(searchField + "\n");
     }
+
+    public int getAmountOfArticles() {
+        return articles.size();
+    }
 }
