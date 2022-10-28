@@ -1,4 +1,4 @@
-package babich.projects;
+package babich.projects.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -1,5 +1,7 @@
 package babich.projects;
 
+import babich.projects.pages.MainPage;
+import babich.projects.pages.SearchPage;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;

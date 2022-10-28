@@ -1,5 +1,7 @@
 package babich.projects;
 
+import babich.projects.pages.LoginPage;
+import babich.projects.pages.MainPage;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
