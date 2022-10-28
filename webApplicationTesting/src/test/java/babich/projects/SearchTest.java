@@ -34,9 +34,16 @@ public class SearchTest {
     }
 
     @Test
-    public void searchTest() {
+    public void correctSearchTest() {
         mainPage.clickSearchButton();
         searchPage.setSearchField("JUnit");
         Assert.assertTrue(searchPage.getAmountOfArticles() > 0);
+    }
+
+    @Test
+    public void incorrectSearchTest() {
+        mainPage.clickSearchButton();
+        searchPage.setSearchField("adgsfdsfhsfgh");
+        Assert.assertEquals(0, searchPage.getAmountOfArticles());
     }
 }
