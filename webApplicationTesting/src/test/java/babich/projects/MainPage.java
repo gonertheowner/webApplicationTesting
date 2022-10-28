@@ -19,6 +19,9 @@ public class MainPage {
     @FindBy(xpath = "//a[@class='tm-user-item__username']")
     private WebElement userName;
 
+    @FindBy(xpath = "//a[@href='/ru/search/']")
+    private WebElement searchButton;
+
     public void clickProfileButton() {
         profileButton.click();
     }
