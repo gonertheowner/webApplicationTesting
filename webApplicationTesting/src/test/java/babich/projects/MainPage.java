@@ -33,4 +33,8 @@ public class MainPage {
     public String getUserName() {
         return userName.getText();
     }
+
+    public void clickSearchButton() {
+        searchButton.click();
+    }
 }
